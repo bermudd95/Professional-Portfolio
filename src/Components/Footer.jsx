@@ -1,6 +1,7 @@
 import React from 'react'
 import Stack from '@mui/material/Stack';
 import DeveloperBoardIcon from '@mui/icons-material/DeveloperBoard'
+import './Footer.css';
 
 const Footer = () => {
   return (
@@ -13,7 +14,6 @@ const Footer = () => {
                     DB Productions
                     <DeveloperBoardIcon fontSize="large" className=' ps-1'/>
                 </h4>
-                
                 <p>
                     All rights reserved
                 </p>  
